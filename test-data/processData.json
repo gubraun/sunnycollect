@@ -1,0 +1,98 @@
+{
+  "result": {
+    "devices": [
+      {
+        "channels": [
+          {
+            "meta": "Ipv",
+            "name": "DC Strom Eingang",
+            "unit": "A",
+            "value": "0.863"
+          },
+          {
+            "meta": "Upv-Ist",
+            "name": "DC Spannung Eingang",
+            "unit": "V",
+            "value": "367.14"
+          },
+          {
+            "meta": "WindVel m/s",
+            "name": "Windgeschwindigkeit",
+            "unit": "m/s",
+            "value": "0"
+          },
+          {
+            "meta": "TmpAmb C",
+            "name": "Außentemperatur",
+            "unit": "°C",
+            "value": "0"
+          },
+          {
+            "meta": "IntSolIrr",
+            "name": "Einstrahlung",
+            "unit": "W/m^2",
+            "value": "0"
+          },
+          {
+            "meta": "Fac",
+            "name": "Netzfrequenz",
+            "unit": "Hz",
+            "value": "50.02"
+          },
+          {
+            "meta": "Iac-Ist",
+            "name": "Netzstrom",
+            "unit": "A",
+            "value": "0"
+          },
+          {
+            "meta": "Pac",
+            "name": "Leistung",
+            "unit": "W",
+            "value": "598"
+          },
+          {
+            "meta": "Riso",
+            "name": "Isolationswiderstand",
+            "unit": "Ohm",
+            "value": "3000000"
+          },
+          {
+            "meta": "TmpMdul C",
+            "name": "Modultemperatur",
+            "unit": "°C",
+            "value": "0"
+          },
+          {
+            "meta": "h-On",
+            "name": "Einspeisezeit",
+            "unit": "h",
+            "value": "37021.21"
+          },
+          {
+            "meta": "h-Total",
+            "name": "Betriebszeit",
+            "unit": "h",
+            "value": "38330.38"
+          },
+          {
+            "meta": "E-Total",
+            "name": "Gesamtertrag",
+            "unit": "kWh",
+            "value": "55080.404"
+          },
+          {
+            "meta": "Netz-Ein",
+            "name": "Anzahl Netzzuschaltungen",
+            "value": "4468"
+          }
+        ],
+        "key": "008a:7ef555df"
+      }
+    ]
+  },
+  "format": "JSON",
+  "proc": "GetProcessData",
+  "version": "1.0",
+  "id": "1"
+}

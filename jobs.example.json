@@ -1,0 +1,20 @@
+[
+    {
+        "measurement": "Photovoltaik",
+        "interval": 30000,
+        "fields": {
+            "Leistung": {
+                "type": "FLOAT",
+                "command": "GriPwr"
+            },
+            "Tagesertrag": {
+                "type": "FLOAT",
+                "command": "GriEgyTdy"
+            },
+            "Gesamtertrag": {
+                "type": "FLOAT",
+                "command": "GriEgyTot"
+            }
+        }
+    }
+]

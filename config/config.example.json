@@ -1,0 +1,9 @@
+{
+    "influx": {
+      "host": "localhost",
+      "database": "sunny"
+    },
+    "webbox": {
+      "url": "http://192.168.178.36/rpc"
+    }
+  }

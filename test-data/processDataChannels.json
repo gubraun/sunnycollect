@@ -1,0 +1,19 @@
+{
+  "result": {
+    "008a:7ef555df": [
+      "Ipv",
+      "Upv-Ist",
+      "Fac",
+      "Pac",
+      "Riso",
+      "h-On",
+      "h-Total",
+      "E-Total",
+      "Netz-Ein"
+    ]
+  },
+  "format": "JSON",
+  "proc": "GetProcessDataChannels",
+  "version": "1.0",
+  "id": "1"
+}

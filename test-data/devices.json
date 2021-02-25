@@ -1,0 +1,15 @@
+{
+  "result": {
+    "devices": [
+      {
+        "key": "008a:7ef555df",
+        "name": "SN: 2130007519"
+      }
+    ],
+    "totalDevicesReturned": 1
+  },
+  "format": "JSON",
+  "proc": "GetDevices",
+  "version": "1.0",
+  "id": "1"
+}

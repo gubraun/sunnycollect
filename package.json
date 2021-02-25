@@ -1,0 +1,24 @@
+{
+  "name": "sunnycollect",
+  "version": "1.0.0",
+  "description": "Collect data from an SMA Sunny WebBox periodically and store the collected data in an Influx database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gubraun/sunnycollect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gubraun/sunnycollect/issues"
+  },
+  "homepage": "https://github.com/gubraun/sunnycollect#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "influx": "^5.7.0",
+    "node-fetch": "^2.6.1"
+  }
+}
