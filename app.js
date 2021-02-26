@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Influx = require("influx");
 const path = require("path");
 
@@ -23,10 +25,9 @@ async function main() {
     const jobs = new Jobs(path.join(__dirname, "./jobs.example.json"));
     const schema = jobs.getInfluxSchema();
 
-    
     let influxConfig = Config.influx;
     influxConfig.schema = schema;
-    //let influxClient = new Influx.InfluxDB(influxConfig);
+    let influxClient = new Influx.InfluxDB(influxConfig);
 
     jobs.jobs.forEach((job) => {
         setInterval(async () => {
@@ -34,13 +35,20 @@ async function main() {
                 let dataCollector = new DataCollector(Config.webbox.url);
                 let fields = await dataCollector.fetchData(job.fields);
 
-                console.log(fields);
+                if (fields) {
+                    await influxClient.writePoints([{
+                        measurement: job.measurement,
+                        tags: {},
+                        fields: fields
+                    }]);
+                }
             }
             catch (e) {
                 Log.error(e);
             }
 
-        }, 30000)
+        }, job.interval);
+        Log.debug("Installed job " + job.measurement);
     })
 }
 
