@@ -8,7 +8,7 @@ const DataCollector = require("./src/datacollector");
 
 const debug = !!process.env.DEBUG
 
-global.Config = require(path.join(__dirname, "/config/config.example.json"));
+global.Config = require(path.join(__dirname, "/config/config.json"));
 
 function log(level, msg) {
     console.log(Date() + " [" + level + "] " + msg)
@@ -22,7 +22,7 @@ global.Log = {
 }
 
 async function main() {
-    const jobs = new Jobs(path.join(__dirname, "./jobs.example.json"));
+    const jobs = new Jobs(path.join(__dirname, "./jobs.json"));
     const schema = jobs.getInfluxSchema();
 
     let influxConfig = Config.influx;
