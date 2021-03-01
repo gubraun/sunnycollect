@@ -1,0 +1,11 @@
+[Unit]
+Description=sunnycollect service
+After=influxdb.service
+Wants=influxdb.service
+
+[Service]
+Type=simple
+ExecStart=sunnycollect
+
+[Install]
+WantedBy=multi-user.target
