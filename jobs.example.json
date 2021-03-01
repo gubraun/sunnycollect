@@ -1,7 +1,7 @@
 [
     {
         "measurement": "Photovoltaik",
-        "interval": 30000,
+        "interval": 300000,
         "fields": {
             "Leistung": {
                 "type": "FLOAT",
