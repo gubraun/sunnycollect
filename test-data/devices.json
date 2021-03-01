@@ -2,8 +2,8 @@
   "result": {
     "devices": [
       {
-        "key": "008a:7ef555df",
-        "name": "SN: 2130007519"
+        "key": "XXXX:YYYYYYYY",
+        "name": "SN: 0XXXXXXXX9"
       }
     ],
     "totalDevicesReturned": 1
