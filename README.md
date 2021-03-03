@@ -1,6 +1,6 @@
 # SunnyCollect
-Collect data from an SMA Sunny WebBox periodically and store the collected data in an Influx database.
-   This work is inspired by [sunnyboy-influxdb](https://github.com/martijndierckx/sunnyboy-influxdb). It is based on [vitocollect](https://github.com/nexx512/vitocollect).
+Collect data from an SMA Sunny WebBox periodically and store the collected data in an Influx database.  
+This work is inspired by [sunnyboy-influxdb](https://github.com/martijndierckx/sunnyboy-influxdb). It is based on [vitocollect](https://github.com/nexx512/vitocollect).
 
 ## Installation
 Install globally:
